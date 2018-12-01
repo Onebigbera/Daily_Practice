@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b3e0ef-e512-472e-a50f-88c964c56b87" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -142,9 +142,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="686" />
-    <option name="width" value="1305" />
-    <option name="height" value="1038" />
+    <option name="x" value="433" />
+    <option name="y" value="30" />
+    <option name="width" value="1458" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,7 +337,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="549" y="0" width="1044" height="830" extended-state="0" />
+    <frame x="347" y="24" width="1166" height="779" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294964" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020107" side_tool="true" weight="0.122507125" />
@@ -344,10 +345,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32868218" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22222222" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928057" visible="true" weight="0.24746451" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.40654206" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928057" visible="true" weight="0.2202166" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.036511157" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.032490976" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5007194" side_tool="true" weight="0.14263323" />
