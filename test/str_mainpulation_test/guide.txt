@@ -1,0 +1,21 @@
+python 语言中的字符串是有序的、不可修改的、元素以引号包围的序列
+1.有序        支持索引 切皮
+2.不可修改     原子性  不支持对字符串的修改
+string = "hello world "
+string[2] = 'k'
+TypeError : 'str' object does not support item assignment
+
+3.以引号包围的序列
+string = 'hello'
+string = "hello"
+
+string = """hello"""
+string = '''hello'''
+PS 三引号可以形成带有换行的多行字符串
+引号用法冲突需要转义
+print('what/'s your name')
+print('''
+          ***
+     hello world
+          ***
+''')
