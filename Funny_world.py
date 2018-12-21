@@ -1,5 +1,7 @@
 import os
 
+# escape character '\' 既有对''单引号的转义 也有对双引号的转义
+print('she said:\'yes,python is a perfect language  and it worth to study hardly,including \"perter\"\'')
 # print(os.name)
 # print(os.listdir())
 # os.mkdir('test')
