@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> <!--注意在这个标签首尾都有一个 "?"-->
+<Class>  <!--根节点-->
+
+	<student>   <!--一级子节点-->
+
+		<name>George</name>
+		<age>24</age>
+		<city>Wuhan</city>
+
+	</student>
+
+	<student>
+		<name>Mike</name>
+		<age>24</age>
+		<city>Wuhan</city>
+	</student>
+
+	<teacher>
+
+		<name>Steven</name>
+		<age>28</age>
+		<city>Beijing</city>
+	</teacher>
+
+	<account>
+		<login username="student" password="123456"/>
+		<login username="teacher" password="123456"/>
+	</account>
+</Class>

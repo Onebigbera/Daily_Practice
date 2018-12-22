@@ -15,8 +15,8 @@ def read_csv_g(path):
     csvFile = open(path, newline='', encoding='utf-8')
     # 读取打开的 csv 文件流 获取文件内容
     csvReader = csv.reader(csvFile)
-    # 打印文件内容
-    [print(row) for row in csvReader]
+    # 打印文件内容 查看其中每一项的字符类型和按照索引取值
+    [print(row,type(row),row[1]) for row in csvReader]
     # 关闭文件
     csvFile.close()
 
@@ -35,7 +35,10 @@ def write_csv_G(path):
     # 打开文件 不存在文件则会创建
     csvFile = open(path, 'w', newline='')
     # 利用 csv 模块自带的 write 函数
-    writer = csv.writer(csvFile)
+    """
+        dialect : 方言，同源语， 表示按照何种文件方式操作  选取 excel
+    """
+    writer = csv.writer(csvFile, dialect='excel')
     # 写入一行数据  其每一行都是以元祖格式为单位
     writer.writerow(('名称', '网址'))
     # row 中每个元素为元祖
@@ -63,10 +66,10 @@ def append_csv_G(path):
 
 if __name__ == "__main__":
     path_read = r'F:\Python_guide\Daily_Practice\test\file_operations_test_G\By_txt.csv'
-    read_csv_V(path_read)
+    read_csv_g(path_read)
 
     # path_write = r'F:\Python_guide\Daily_Practice\test\file_operations_test_G\test_txt.csv'
     # write_csv_G(path_write)
 
-    append_path = r'F:\Python_guide\Daily_Practice\test\file_operations_test_G\test_txt.csv'
-    append_csv_G(append_path)
+    # append_path = r'F:\Python_guide\Daily_Practice\test\file_operations_test_G\test_txt.csv'
+    # append_csv_G(append_path)
