@@ -1,0 +1,4 @@
+2018-12-31 16:43:48,330 - logDemo.py[line:43] - INFO: this is a logger info message
+2018-12-31 16:43:48,330 - logDemo.py[line:44] - WARNING: this is a logger warning message
+2018-12-31 16:43:48,330 - logDemo.py[line:45] - ERROR: this is a logger error message
+2018-12-31 16:43:48,330 - logDemo.py[line:46] - CRITICAL: this is a logger critical message

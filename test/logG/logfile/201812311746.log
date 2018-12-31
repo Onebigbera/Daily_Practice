@@ -1,0 +1,5 @@
+2018-12-31 17:46:25,315 - exceptTrace.py[line:35] - ERROR: Failed to open file
+Traceback (most recent call last):
+  File "F:/Python_guide/Daily_Practice/test/logG/exceptTrace.py", line 32, in exceptTraceG
+    with open("/path/to/does/not/exit", 'rb') as fr:
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/does/not/exit'
