@@ -38,3 +38,16 @@ print(string_test[0:-3:-1])
 
 # 验证 None
 print(string_test[-4:-2:-1])
+
+# repr 和 str 用法的区别
+print(repr("Hello \n world"))    # 'Hello \n world'
+print(str("Hello \nworld "))    # 会识别出字符串中的 \n 换行符从而换行
+print("Hello world")
+
+print(r"Let's go!")    # 当单引号和双引号没有冲突时，r源生方法表示源生
+print(r'Let\'s go!') # 但字符串中出现 '单引号时明系统还是不能判别停止位置，从而需要转义 结论: \ 转义字符可以在 r原始字符串中生效
+
+# 原始字符串不能以单个反斜杠结尾
+# print(r"This is illegal\")      # SyntaxError: EOL while scanning string literal
+print(r"This is illegal\\")
+# 指定原始字符串，可以用单引号或者双引号将其括起来，还可以将其使用三引号括起来。
